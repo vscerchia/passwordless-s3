@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "S3 token store for passwordless",
   "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/vscerchia/passwordless-s3"
+  },
   "scripts": {
     "lint": "eslint lib/ test/ --ext .js",
     "test": "mocha"
