@@ -15,3 +15,6 @@ The constructor takes in `s3Options`, which is passed to the underlying S3 clien
 ## Testing and linting
 * `npm test`
 * `npm run lint`
+
+## Hash and salt
+As the tokens are equivalent to passwords (even though only for a limited time) they have to be protected in the same way. By default passwordless-s3 uses [bcrypt](https://github.com/kelektiv/node.bcrypt.js) with automatically created random salts. To generate the salt 10 rounds are used.
