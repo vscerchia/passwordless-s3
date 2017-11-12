@@ -4,12 +4,13 @@
   "description": "S3 token store for passwordless",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src/ test/ --ext .js",
     "test": "mocha"
   },
   "author": "Vincent Cerchia",
   "license": "MIT",
   "devDependencies": {
-    "chai": "4.1.2",
+    "eslint": "4.11.0",
     "mocha": "4.0.1",
     "passwordless-tokenstore-test": "0.1.4"
   },
